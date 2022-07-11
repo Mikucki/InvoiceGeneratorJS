@@ -1,0 +1,54 @@
+:root {
+    --black: #171321;
+    --dkblue: #2198A6;
+    --lightblue: #2ABFBF;
+    --magma: #F2B705;
+    --orange: #F29F05;
+    --dkorange: #D97904;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: 'Oxygen Mono', monospace;
+    --sans: Oxygen, sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+}
+  
+  nav div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border: red solid;
+    margin: 0px;
+    font-family: var(--mono);
+  }
+  
+  nav div ul li:first-child {
+    justify-content: left;
+    font-size: 3rem;
+    margin-right: 40rem;
+    margin-left: 10rem;
+  }
+  
+  nav div ul li {
+    
+    list-style-type: none;
+    
+  }
