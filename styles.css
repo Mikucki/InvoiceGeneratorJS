@@ -47,17 +47,14 @@ margin: 0px;
 
 nav div ul li:first-child {
 justify-content: left;
-font-size: 3rem;
-margin-right: 40rem;
+font-size: 2.5rem;
+margin-right: 30rem;
 margin-left: 10rem;
-padding: rem;
-
 }
 
 nav div ul li {
-
 list-style-type: none;
-
+padding: 2rem;
 }
 
 a {
@@ -86,3 +83,28 @@ font-size: 1.7rem;
   height: 2px;
 }
 
+section div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section div h2 {
+display: inline-block;
+line-height: 100px;
+width: 400px;
+text-align: center;
+}
+
+.invoiceBackground {
+  background-color: aliceblue;
+  height: 1000px;
+  width: 50%;
+  flex-direction: row;
+
+}
+
+.invoice-posicioning {
+  display: flex;
+  flex-direction: column;
+}
