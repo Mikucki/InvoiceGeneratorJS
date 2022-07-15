@@ -83,28 +83,41 @@ font-size: 1.7rem;
   height: 2px;
 }
 
-section div{
+section div {
 display: flex;
 justify-content: center;
-align-items: center;
+text-align: center;
 }
 
 section div h2 {
 display: inline-block;
-line-height: 100px;
 width: 400px;
 text-align: center;
 }
-
-.invoiceBackground {
-  background-color: aliceblue;
-  height: 1000px;
-  width: 50%;
-  flex-direction: row;
-
+.invoice-flex {
+display: flex;
 }
 
-.invoice-posicioning {
-  display: flex;
-  flex-direction: column;
+.invoice-background {
+background-color: var(--white);
+width: 65%;
+height: 850px;
+display: flex;
+border-radius: 3rem;
+}
+
+.invoice-firstrow-flex {
+display: flex;
+flex-direction: row
+}
+
+.invoice-logo {
+justify-content: left;
+text-align: center;
+color: red;
+border: 4px solid red;
+width: 100%;
+height: 100px;
+padding: 2rem;
+font-size: 0.8rem;
 }
