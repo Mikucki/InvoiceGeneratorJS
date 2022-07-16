@@ -108,7 +108,6 @@ border-radius: 3rem;
 
 .invoice-firstrow-flex {
 display: flex;
-flex-direction: row
 }
 
 .invoice-logo {
@@ -120,4 +119,5 @@ width: 100%;
 height: 100px;
 padding: 2rem;
 font-size: 0.8rem;
+color: black;
 }
